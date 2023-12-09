@@ -11,7 +11,7 @@
 
 #wifi-loader {
     --background: #62abff;
-    --front-color: #0AD4B5;
+    --front-color: var(--green)
     --back-color: #c3c8de;
     --text-color: #414856;
     width: 64px;

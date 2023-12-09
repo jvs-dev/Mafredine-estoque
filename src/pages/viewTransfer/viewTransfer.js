@@ -70,7 +70,7 @@ function verifyUrl() {
             </div>
             <a href="#" class="viewDischargeSection__back"><ion-icon
                     name="arrow-back-outline"></ion-icon>Voltar</a>
-            <p class="viewDischargeSection__copyright">©Marktec telecom</p>`
+            <p class="viewDischargeSection__copyright">©Mafredine telecom</p>`
             let generatePDF = document.getElementById("generatePDF")
             let timeElapsed = Date.now();
             let today = new Date(timeElapsed);

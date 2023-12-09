@@ -130,7 +130,7 @@ function verifyUrl() {
             </div>
             <a href="#" class="viewDischargeSection__back"><ion-icon
                     name="arrow-back-outline"></ion-icon>Voltar</a>
-            <p class="viewDischargeSection__copyright">©Marktec telecom</p>`
+            <p class="viewDischargeSection__copyright">©Mafredine telecom</p>`
             let generatePDF = document.getElementById("generatePDF")
             if (actualUserWork == "Técnico" && actualUser == doc.data().tecnicName && date == doc.data().date && doc.data().edited != true) {
                 let editDischargeBtn = document.getElementById("editDischargeBtn")

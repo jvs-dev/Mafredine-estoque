@@ -59,7 +59,7 @@
 }
 
 .section__p span {
-    color: var(--orange);
+    color: #00f;
     text-decoration: underline;
     cursor: pointer;
 }

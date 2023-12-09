@@ -19,7 +19,7 @@
 .main__updateSection .dot-spinner {
     --uib-size: 6.8rem;
     --uib-speed: .9s;
-    --uib-color: #0AD4B5;
+    --uib-color: var(--green);
     position: relative;
     display: flex;
     align-items: center;

@@ -148,7 +148,7 @@ function verifyUrl() {
                 let doc = new jsPDF()
                 doc.fromHTML(`<h1 style="font-size: 32px; font-weight: 500; font-family: 'Poppins', sans-serif;">Comprovante de baixa</h1>`, 10, 10)
                 doc.fromHTML(`<p style="font-size: 18px; font-family: 'Poppins', sans-serif;">ID da baixa: ${reqId}</p>`, 10, 21)
-                doc.fromHTML(`<p style="font-size: 18px; font-family: 'Poppins', sans-serif;">© Marktec Telecom</p>`, 10, 27)
+                doc.fromHTML(`<p style="font-size: 18px; font-family: 'Poppins', sans-serif;">© Mafredine Telecom</p>`, 10, 27)
                 doc.fromHTML(`<p style="font-size: 18px; font-family: 'Poppins', sans-serif;">Comprovante emitido por ${actualUser} dia ${date} ás ${hours}.</p>`, 10, 40)
                 doc.fromHTML(`<p style="font-size: 18px; font-family: 'Poppins', sans-serif;">Items usados por ${tecnicName}.</p>`, 10, 48)
                 doc.fromHTML(`<p style="font-size: 18px; font-family: 'Poppins', sans-serif;">Baixa realizada dia ${dischargeDate} ás ${dischargeHour}.</p>`, 10, 56)
